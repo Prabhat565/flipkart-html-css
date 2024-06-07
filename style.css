@@ -1,0 +1,220 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: rgba(241, 242, 244, 1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+.header-first {
+  display: flex;
+  justify-content: space-between;
+
+  width: 60%;
+}
+.header-second {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+.search-box {
+  position: relative;
+}
+.search-box input {
+  width: 32rem;
+  padding: 1rem;
+  background: rgba(173, 216, 230, 0.551);
+}
+.search-box img {
+  position: absolute;
+  height: 25px;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(173, 216, 230, 0.551);
+}
+
+.search-box input::placeholder {
+  font-size: 16px;
+}
+
+.login-button {
+  display: flex;
+  justify-content: space-around;
+  width: 5rem;
+}
+
+.cart-button {
+  display: flex;
+  justify-content: space-around;
+  width: 5rem;
+}
+
+.seller-button {
+  display: flex;
+  justify-content: space-around;
+  width: 10rem;
+}
+
+.header-bottom-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 80%;
+  margin: auto;
+  background-color: white;
+}
+
+.banner-section {
+  background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/cc633426b89ad841.png?q=20");
+  width: 100%;
+  height: 16rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 98%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.items-section {
+  display: flex;
+  flex-direction: column;
+  max-width: 97%;
+  background-color: white;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.card p:nth-child(2) {
+  font-style: bold;
+  font-size: 18px;
+}
+.card p:nth-child(3),
+p:nth-child(4) {
+  opacity: 0.7;
+}
+
+.toys {
+  margin-top: 3rem;
+}
+
+.sports {
+  margin-top: 3rem;
+}
+.selection {
+  margin-top: 2rem;
+  max-width: 97%;
+  /* background-color: white; */
+  display: flex;
+}
+.top-selection,
+.like-container {
+  max-width: 35%;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-right: 1px solid rgba(0, 0, 0, 0.397);
+  background-color: white;
+  text-align: center;
+}
+.top-selection h2 {
+  margin-bottom: 1rem;
+}
+.like-container h2 {
+  margin-bottom: 1rem;
+}
+.quality-container h2 {
+  margin-bottom: 1rem;
+}
+
+.quality-container {
+  background-color: white;
+  text-align: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.footer-section {
+  max-width: 98%;
+  background-color: black;
+  color: white;
+  display: grid;
+  justify-content: baseline;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+  margin-top: 1rem;
+}
+.footer-first {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.footer-first-left {
+  width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.footer-first-right {
+  width: 30%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.right-columns1 {
+  margin-bottom: 1rem;
+}
+
+.footer-second {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.advertise,
+.gift,
+.help {
+  display: flex;
+  justify-content: space-around;
+  width: 10rem;
+}
+
+.clients {
+  margin-left: 3rem;
+}
+
+.left-columns h2 {
+  font-size: 15px;
+  opacity: 0.7;
+}
+.left-columns {
+  line-height: 1.3rem;
+}
+.right-column h2 {
+  font-size: 15px;
+  opacity: 0.7;
+}
